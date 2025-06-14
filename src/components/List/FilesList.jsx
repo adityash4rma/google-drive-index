@@ -1,6 +1,7 @@
 import React from 'react'
 import BreadCrumbs from './BreadCrumbs'
 import Lists from './Lists'
+import InfoBox from '../InfoBox/InfoBox'
 
 function FilesList() {
   return (
@@ -9,6 +10,7 @@ function FilesList() {
         <div className="col-span-1"></div>
         <div className="col-span-10">
           <BreadCrumbs/>
+          <InfoBox/>
           <Lists/>
         </div>
         <div className="col-span-1"></div>
