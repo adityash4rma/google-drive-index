@@ -1,14 +1,14 @@
-
-import React from 'react'
-import Navbar from '../components/Navbar'
-
+import React from "react";
+import Navbar from "../components/Navbar/Navbar";
+import FilesList from "../components/List/FilesList";
 
 function HomePage() {
   return (
     <div>
-        <Navbar/>
+      <Navbar />
+      <FilesList/>
     </div>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
