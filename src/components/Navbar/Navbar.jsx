@@ -24,7 +24,9 @@ function Navbar({sendThemeData}) {
 
       {/* Heading */}
       <div className="navbar-center">
-        <a className="btn btn-ghost btn-rounded text-xl">Drive Index</a>
+        <a className="btn btn-ghost btn-rounded text-xl">
+          Drive Index
+          </a>
       </div>
 
       <div className="navbar-end">

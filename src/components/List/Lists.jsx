@@ -2,10 +2,10 @@ import React from "react";
 
 function Lists() {
   return (
-    <ul className="outline-solid list bg-base-100 rounded-box shadow-md w-full">
-      <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">
+    <ul className="list bg-base-100 rounded-box shadow-[-18px_21px_14px_-5px_rgba(0,_0,_0,_0.1)] w-full">
+      {/* <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">
         Files
-      </li>
+      </li> */}
 
       <li className="list-row">
         <div>
@@ -15,7 +15,7 @@ function Lists() {
           />
         </div>
 
-        <div>
+        <div className="">
           <div>DUNE.2024.WEBDL.DSNP.DalaiLama.mkv</div>
           <div className="text-xs font-semibold opacity-60">
             Date: 24-05-2019 | File size: 13.2gb
