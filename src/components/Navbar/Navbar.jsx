@@ -3,8 +3,13 @@ import React from "react";
 import SearchBar from "./SearchBar";
 import Drawer from "./Drawer";
 
-function Navbar() {
+function Navbar({sendThemeData}) {
   const [showSearch, setShowSearch] = useState(false);
+
+  function handleThemePassing() {
+    sendThemeData()
+    
+  }
 
   function handleShowSearch() {
     setShowSearch(!showSearch);
@@ -46,6 +51,7 @@ function Navbar() {
         <label className="swap swap-rotate">
           {/* this hidden checkbox controls the state */}
           <input
+            onClick={(e) => handleThemePassing(e.target.value)}
             type="checkbox"
             className="theme-controller"
             value="silk"

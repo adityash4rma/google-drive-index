@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [tailwindcss(), react()],
   
   server: {
-    host: '192.168.1.34'
+    //host: '192.168.1.34'
   }
 
 });

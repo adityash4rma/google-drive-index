@@ -1,4 +1,18 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-   themes: silk --default, dark --prefersdark;
- }
+  themes: silk --default, dark --prefersdark;
+}
+
+.main-bg-light {
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: radial-gradient(#e0e0e0 1.6px, #ffffff 1.6px);
+  background-size: 32px 32px;
+}
+
+.main-bg-dark {
+  background-color: #1d232a;
+  opacity: 1;
+  background-image: radial-gradient(#3a3a3a 1.6px, #1d232a 1.6px);
+  background-size: 32px 32px;
+}
