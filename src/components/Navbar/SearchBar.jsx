@@ -3,7 +3,7 @@ import React from "react";
 function SearchBar() {
   return (
     <div>
-      <label className="input">
+      <label className="input ">
         <svg
           className="h-[1em] opacity-50"
           xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@ function SearchBar() {
             <path d="m21 21-4.3-4.3"></path>
           </g>
         </svg>
-        <input type="search" className="grow" placeholder="Search" />
+        <input type="search" className="grow w-full input-bordered " placeholder="Search" />
       </label>
     </div>
   );

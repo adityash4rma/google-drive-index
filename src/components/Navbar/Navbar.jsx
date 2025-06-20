@@ -24,9 +24,11 @@ function Navbar({sendThemeData}) {
 
       {/* Heading */}
       <div className="navbar-center">
-        <a className="btn btn-ghost btn-rounded text-xl">
+
+        <a className="hidden md:inline btn btn-ghost btn-rounded text-xl">
+          {/* <img src="src\assets\arcanine-lightmode.svg" />   */}
           Drive Index
-          </a>
+        </a>
       </div>
 
       <div className="navbar-end">
